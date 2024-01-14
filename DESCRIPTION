@@ -1,7 +1,7 @@
 Package: NewtonRaphson
 Type: Package
 Title: Newton Raphson Method to Estimate Maximum Likelihood
-Version: 0.2.0
+Version: 0.2.1
 Author: Solichatus Zahroh
 Maintainer: Solichatus Zahroh <s.solichatuszahroh@students.uu.nl>
 Description: This function explains how the Newton-Raphson method can be used to estimate the maximum likelihood estimates for the two-class logistic regression model.
