@@ -9,4 +9,4 @@
 library(testthat)
 library(NewtonRaphson)
 
-test_check("NewtonRaphson")
+test_check("logregNewtonRaphson")

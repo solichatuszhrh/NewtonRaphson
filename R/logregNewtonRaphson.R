@@ -1,5 +1,6 @@
 #' The logregNewtonRaphson function performs the Newton-Raphson optimisation
 #' to obtain the mle estimates for coefficients in a logistic regression model
+#' @name logregNewtonRaphson
 #'
 #' @param X A model matrix without intercept
 #' @param y A response vector of 0s and 1s
@@ -11,6 +12,8 @@
 #' @returns iterations: number of iterations required
 #'
 #' @author Solichatus Zahroh \email{s.solichatuszahroh@students.uu.nl}
+#'
+#' @export
 
 logregNewtonRaphson <- function(X, y, max.iter=30, tol=1E-6){
 
